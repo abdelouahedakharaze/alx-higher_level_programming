@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for i in range(99):
-    print(f"Decimal: {i} Hexadecimal: {i:X}")
+    print("Decimal: {} Hexadecimal: {:X}".format(i, i))
