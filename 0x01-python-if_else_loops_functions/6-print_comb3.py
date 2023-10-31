@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for i in range(10):
-    for j in range(i + 1, 10):
-        if i == 8 and j == 9:
-            print("{:02d}".format(int(f"{i}{j}")), end=" ")
+for wahadat in range(0, 10):
+    for asharats in range(wahadat + 1, 10):
+        if wahadat == 8 and asharats == 9:
+            print("{}{}".format(wahadat, asharats))
         else:
-            print("{:02d},".format(int(f"{i}{j}")), end=" ")
+            print("{}{}".format(wahadat, asharats), end=", ")
