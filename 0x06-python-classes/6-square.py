@@ -20,8 +20,10 @@ class Square:
         position: Get/set the current position of the square.
 
     Raises:
-        TypeError: If size is not an integer or if position is not a tuple of 2 positive integers.
-        ValueError: If size is less than 0 or if any value in position is less than 0.
+        TypeError: If size  not an integer or if position is not
+        a tuple of 2 positive integers.
+        ValueError: If size is less than 0 or if any value in
+        position is less than 0.
 
     """
 
@@ -33,8 +35,10 @@ class Square:
             position (tuple): The position of the new square.
 
         Raises:
-            TypeError: If size is not an integer or if position is not a tuple of 2 positive integers.
-            ValueError: If size is less than 0 or if any value in position is less than 0.
+            TypeError: If size is not an integer or if position
+            is not a tuple of 2 positive integers.
+            ValueError: If size is less than 0 or if any value
+            in position is less than 0.
         """
         self.size = size
         self.position = position
