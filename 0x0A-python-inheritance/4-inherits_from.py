@@ -1,15 +1,17 @@
 #!/usr/bin/python3
-""" a generic documentation to test checker"""
+"""Defines an inherited class-checking function."""
 
 
-def is_inherited_instance(obj, target_class):
-    """Checks if an object is an inherited instance of a specific class.
+def inherits_from(obj, a_class):
+    """Checks if an object is an inherited instance of a class.
 
     Args:
-        obj (any): The object to be checked.
-        target_class (type): The class to compare the object's type to.
-
+        obj (any): The object to check.
+        a_class (type): The class to match the type of obj to.
     Returns:
-        True if obj is an inherited instance of target_class, otherwise False.
+        If obj is an inherited instance of a_class - True.
+        Otherwise - False.
     """
-    return isinstance(obj, target_class) and type(obj) is not target_class
+    if issubclass(type(obj), a_class) and type(obj) != a_class:
+        return True
+    return False
