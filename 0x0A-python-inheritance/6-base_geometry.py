@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-""" a generic documentation to test checker"""
+"""Defines a base geometry class BaseGeometry."""
 
 
 class BaseGeometry:
     """Represent base geometry."""
 
-    def calculate_area(self):
-        """Not yet implemented."""
-
-    raise Exception("calculate_area() is not implemented")
+    def area(self):
+        """Not implemented."""
+        raise Exception("area() is not implemented")
