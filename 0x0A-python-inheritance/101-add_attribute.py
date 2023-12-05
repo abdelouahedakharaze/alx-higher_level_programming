@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" a generic documentation to test checker"""
 
 
 def add_attribute(obj, att, value):

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-
+""" a generic documentation to test checker"""
 Rectangle = __import__("9-rectangle").Rectangle
+""" a generic documentation to test checker"""
 
 
 class Square(Rectangle):

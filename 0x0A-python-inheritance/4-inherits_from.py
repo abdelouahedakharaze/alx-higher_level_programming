@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" a generic documentation to test checker"""
 
 
 def is_inherited_instance(obj, target_class):

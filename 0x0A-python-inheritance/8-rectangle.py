@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-
+""" a generic documentation to test checker"""
 BaseGeometry = __import__("7-base_geometry").BaseGeometry
+
+""" a generic documentation to test checker"""
 
 
 class Rectangle(BaseGeometry):
