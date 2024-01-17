@@ -8,4 +8,4 @@ SELECT t.`title`
        INNER JOIN `tv_genres` AS g
        ON g.`id` = s.`genre_id`
        WHERE g.`name` = "Comedy"
- ORDER BY t.`title` DESC;
+ ORDER BY t.`title`;
