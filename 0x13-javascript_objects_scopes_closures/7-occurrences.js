@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// Abdelouahed Akharaze
 // Define the function nbOccurences which takes a list and a searchElement as arguments
 exports.nbOccurences = function (list, searchElement) {
   // Initialize a variable count to count the occurrences
