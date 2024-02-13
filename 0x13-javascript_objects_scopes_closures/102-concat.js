@@ -1,35 +1,19 @@
 #!/usr/bin/node
 // Abdelouahed Akharaze
+// Importing the file system module
 const fs = require('fs');
 
-// Extracting file paths from command line arguments
-const [, , fileA, fileB, fileC] = process.argv;
+// Extracting command line arguments
+const argv = process.argv;
 
-// Reading the contents of fileA
-fs.readFile(fileA, 'utf8', (err, dataA) => {
-  if (err) {
-    console.error(err);
-    return;
-  }
+// Reading the contents of the first source file synchronously
+const file1 = fs.readFileSync(argv[2], 'utf-8').toString();
 
-  // Reading the contents of fileB
-  fs.readFile(fileB, 'utf8', (err, dataB) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
+// Reading the contents of the second source file synchronously
+const file2 = fs.readFileSync(argv[3], 'utf-8').toString();
 
-    // Concatenating the contents of fileA and fileB
-    const concatenatedContent = `${dataA}${dataB}`;
+// Concatenating the contents of the two files
+const concatenatedContent = file1 + file2;
 
-    // Writing the concatenated content to fileC
-    fs.writeFile(fileC, concatenatedContent, err => {
-      if (err) {
-        console.error(err);
-        return;
-      }
-
-      console.log('Concatenation successful!');
-    });
-  });
-});
+// Writing the concatenated content to the destination file synchronously
+fs.writeFileSync(argv[4], concatenatedContent);
