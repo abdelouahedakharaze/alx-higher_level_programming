@@ -3,8 +3,8 @@
 
 // Rectangle class definition
 class Rectangle {
-    // Empty constructor
-    constructor() {}
+  // Empty constructor
+  constructor () {}
 }
 
 // Exporting the Rectangle class to make it available for use in other files
