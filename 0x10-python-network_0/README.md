@@ -2,9 +2,6 @@
 
 **GitHub:** https://github.com/abdelouahedakharaze
 
-**Name:** Abdelouahed Akharaze
-
-**GitHub:** https://github.com/abdelouahedakharaze
 
 
 
