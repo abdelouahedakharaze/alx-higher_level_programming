@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""
-takes in a URL, sends a request to the URL & displays the body of the response
-"""
+"""Accepts a URL as input, sends a request to
+ that URL, and then displays the body of the response."""
 if __name__ == '__main__':
     import requests
     from sys import argv

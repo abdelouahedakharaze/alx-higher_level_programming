@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""
-takes in a URL and an email, sends a POST request to the passed URL with the
-email as a parameter, and displays the body of the response
-"""
+"""Accepts a URL and an email address as input,
+sends a POST request to the provided URL with the
+email as a parameter,
+and then displays the body of the response."""
 if __name__ == "__main__":
     import urllib.parse as parse
     import urllib.request as request

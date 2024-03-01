@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Script that sends a POST request with data in the variable q"""
-
+"""A script that sends a POST request containing
+data stored in the variable 'q'."""
 import requests
 from sys import argv
 

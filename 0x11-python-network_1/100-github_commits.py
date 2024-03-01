@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""
-list 10 commits (from the most recent to oldest) of the repository and user
-sent in as arguments
-"""
+"""Lists the 10 most recent commits
+(from the most recent to the oldest) of the specified
+repository and user
+provided as arguments."""
 if __name__ == '__main__':
     import requests
     from sys import argv

@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+
 """
-Takes your Github credentials and uses the GitHub API
-to dispaly your ID.
+This function takes GitHub credentials as
+input and utilizes the GitHub API to retrieve and
+display the user's ID.
 """
+
 
 import requests
 from sys import argv
